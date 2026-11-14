@@ -1,0 +1,32 @@
+Stories loaded: 1680
+Removed by filter:
+  not_template: 714
+  no_plural_object_in_want: 516
+  compound_want: 164
+  contains_vague_term: 162
+  length: 31
+  want_not_infinitive: 27
+  duplicate: 7
+Eligible (usable) per project:
+  g22-rdadmp: 12 (12)
+  g02-federalspending: 9 (9)
+  g05-openspending: 5 (5)
+  g21-badcamp: 5 (5)
+  g03-loudoun: 4 (4)
+  g11-nsf: 4 (4)
+  g04-recycling: 3 (3)
+  g10-scrumalliance: 3 (3)
+  g27-culrepo: 3 (3)
+  g12-camperplus: 2 (2)
+  g14-datahub: 2 (2)
+  g18-neurohub: 2 (2)
+  g26-racdam: 2 (2)
+  g08-frictionless: 1 (1)
+  g13-planningpoker: 1 (1)
+  g19-alfred: 1 (1)
+Rejected by injection verification: 0
+Test projects: ['g02-federalspending', 'g03-loudoun', 'g04-recycling', 'g05-openspending', 'g08-frictionless', 'g10-scrumalliance', 'g11-nsf', 'g12-camperplus', 'g13-planningpoker', 'g14-datahub', 'g18-neurohub', 'g19-alfred', 'g22-rdadmp', 'g26-racdam', 'g27-culrepo']
+Few-shot project: g21-badcamp
+Base stories: 50  Full set: 200  Pilot set: 20
+Injected per type/vocab: {('vague_qualifier', 'in'): 25, ('vague_quantifier', 'out'): 25, ('escape_clause', 'in'): 25, ('vague_qualifier', 'out'): 25, ('vague_quantifier', 'in'): 25, ('escape_clause', 'out'): 25}
+Leakage check: passed (no test term or stem in the system prompt or few-shot examples)

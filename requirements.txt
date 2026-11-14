@@ -1,0 +1,7 @@
+anthropic
+openai
+language-tool-python
+spacy
+scipy
+pandas
+matplotlib

@@ -1,0 +1,61 @@
+{
+  "project": "g21-badcamp",
+  "examples": [
+    {
+      "story": "As a anonymoususer, I want to see a list of all the summits, so that I can determine which summit I might be interested and able to attend.",
+      "labels": {
+        "vague_qualifier": "No",
+        "vague_quantifier": "No",
+        "escape_clause": "No"
+      },
+      "evidence": [],
+      "rationale": "No vague qualifier, vague quantifier or escape clause."
+    },
+    {
+      "story": "As a anonymoususer, I want to see a list of all the summits that include when they are, so that I can determine which summit I want to attend.",
+      "labels": {
+        "vague_qualifier": "No",
+        "vague_quantifier": "No",
+        "escape_clause": "No"
+      },
+      "evidence": [],
+      "rationale": "No vague qualifier, vague quantifier or escape clause."
+    },
+    {
+      "story": "As a trainee, I want to adequately must accept the cancellation terms with a checkbox, so that they can be accountable..",
+      "labels": {
+        "vague_qualifier": "Yes",
+        "vague_quantifier": "No",
+        "escape_clause": "No"
+      },
+      "evidence": [
+        "adequately"
+      ],
+      "rationale": "'adequately' makes the story ambiguous (vague qualifier)."
+    },
+    {
+      "story": "As a anonymoususer, I want to see a list of most of the sessions associated with sponsor attendees, so that I know where I can engage with this sponsor and where they are thought leaders.",
+      "labels": {
+        "vague_qualifier": "No",
+        "vague_quantifier": "Yes",
+        "escape_clause": "No"
+      },
+      "evidence": [
+        "most of the"
+      ],
+      "rationale": "'most of the' makes the story ambiguous (vague quantifier)."
+    },
+    {
+      "story": "As a authenticateduser, I want to find a link on the sponsorships page to become a $350 level sponsor, as appropriate, so that I can pay for and become a sponsor role.",
+      "labels": {
+        "vague_qualifier": "No",
+        "vague_quantifier": "No",
+        "escape_clause": "Yes"
+      },
+      "evidence": [
+        "as appropriate"
+      ],
+      "rationale": "'as appropriate' makes the story ambiguous (escape clause)."
+    }
+  ]
+}
